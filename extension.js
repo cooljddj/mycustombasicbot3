@@ -16,7 +16,7 @@
         
          
 
-        bot.commands.testCommand = {
+        /*bot.commands.testCommand = {
             command: 'test',
             rank: 'user',
             type: 'exact',
@@ -27,7 +27,7 @@
                     API.sendChat('/me This Is A Test Command');
                 }
             }
-        };
+        };*/
 
          
 
