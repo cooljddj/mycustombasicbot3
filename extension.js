@@ -55,7 +55,7 @@
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "basicBot",
         language: "english",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/cooljddj/mybasicBot/master/lang/en.json",
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
@@ -88,19 +88,19 @@
         filterChat: true,
         etaRestriction: false,
         welcome: true,
-        opLink: "Comming Soon",
-        rulesLink: "Comming Soon",
-        themeLink: "Comming Soon",
-        fbLink: "Comming Soon",
-        youtubeLink: "Comming Soon",
-        website: "Comming Soon",
+        opLink: null,
+        rulesLink: null,
+        themeLink: null,
+        fbLink: null,
+        youtubeLink: null,
+        website: "http://forbiddencore.enjin.com/",
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            NSFW: "https://rawgit.com/cooljddj/mycustombasicbot/master/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/Yemasthui/mycustombasicbot/master/blacklists/ExampleOPlist.json"
         }
     }));
 
