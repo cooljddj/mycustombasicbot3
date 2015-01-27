@@ -14,8 +14,7 @@
         bot.retrieveSettings();
 
         
-         Extend the bot here, either by calling another function or here directly.
-         Model code for a bot command:
+         
 
         bot.commands.testCommand = {
             command: 'test',
