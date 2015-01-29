@@ -99,7 +99,7 @@
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/cooljddj/mycustombasicbot/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/Yemasthui/mycustombasicbot/master/blacklists/ExampleOPlist.json"
+            OP: "https://rawgit.com/cooljddj/mycustombasicbot/master/blacklists/ExampleOPlist.json"
         }
     }));
 
