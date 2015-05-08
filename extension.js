@@ -67,7 +67,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 10,
-        motd: "                 Visit Our Website: http://www.alltrapnation.com/  Vist Our FB: http://facebook.com/alltrapnation  Visit Our Twitter: http://twitter.com/alltrapnation  Visit Our Instagram: http://instagram.com/thetrapnation",
+        motd: "...........Visit Our Website: http://www.alltrapnation.com/  Vist Our FB: http://facebook.com/alltrapnation  Visit Our Twitter: http://twitter.com/alltrapnation  Visit Our Instagram: http://instagram.com/thetrapnation",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
