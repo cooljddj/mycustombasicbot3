@@ -13,22 +13,6 @@
         //Load custom settings set below
         bot.retrieveSettings();
 
-        
-         
-
-        bot.commands.commandCommand = {
-            command: 'afk',
-            rank: 'user',
-            type: 'exact',
-            functionality: function (chat, cmd) {
-                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                if (!bot.commands.executable(this.rank, chat)) return void (0);
-                else {
-                    API.sendChat("/me Denied: No Permission To Do This.");
-                }
-            }
-        };
-
          
 
         bot.commands.baconCommand = {
@@ -52,7 +36,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "TrapBot",
         language: "english",
         chatLink: "https://rawgit.com/cooljddj/mybasicBot/master/lang/en.json",
         maximumAfk: 120,
@@ -83,16 +67,16 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 5,
-        motd: "Try To Keep To EDM MAXLENGTH: 10",
+        motd: "Visit Our Website: http://www.alltrapnation.com/  Vist Our FB: http://facebook.com/alltrapnation  Visit Our Twitter: http://twitter.com/alltrapnation  Visit Our Instagram: http://instagram.com/thetrapnation",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
         opLink: null,
         rulesLink: null,
         themeLink: null,
-        fbLink: null,
-        youtubeLink: "https://www.youtube.com/user/Thelegends54",
-        website: null,
+        fbLink: "http://facebook.com/alltrapnation",
+        youtubeLink: "https://www.youtube.com/user/AllTrapNation",
+        website: "http://alltrapnation.com/",
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
