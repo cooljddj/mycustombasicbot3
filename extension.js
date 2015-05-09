@@ -16,14 +16,14 @@
          
 
         bot.commands.baconCommand = {
-            command: 'bacon',  //The command to be called. With the standard command literal this would be: !bacon
+            command: 'credits',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
             type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
             functionality: function (chat, cmd) {
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me Bacon!!!");
+                    API.sendChat("/me BasicBot Made By Yemasthui, Edited By COOLJ");
                 }
             }
         };
@@ -66,18 +66,18 @@
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
         motdEnabled: true,
-        motdInterval: 10,
-        motd: "/n Visit Our Website: http://www.alltrapnation.com/ /n Vist Our FB: http://facebook.com/alltrapnation /n Visit Our Twitter: http://twitter.com/alltrapnation /n Visit Our Instagram: http://instagram.com/thetrapnation",
+        motdInterval: 4,
+        motd: "Welcome To Trap Nation",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
-        opLink: null,
-        rulesLink: null,
+        opLink: "http://bit.ly/1H5dgex",
+        rulesLink: "http://bit.ly/1zQ3biY",
         themeLink: null,
         fbLink: "http://facebook.com/alltrapnation",
         youtubeLink: "https://www.youtube.com/user/AllTrapNation",
         website: "http://alltrapnation.com/",
-        intervalMessages: [],
+        intervalMessages: ["Like us on Facebook: http://facebook.com/alltrapnation", "Sub to us on Youtube: https://www.youtube.com/user/AllTrapNation", "Follow us on twitter: http://twitter.com/alltrapnation"],
         messageInterval: 5,
         songstats: true,
         commandLiteral: "!",
