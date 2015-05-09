@@ -73,7 +73,7 @@
         welcome: true,
         opLink: "http://bit.ly/1H5dgex",
         rulesLink: "http://bit.ly/1zQ3biY",
-        themeLink: null,
+        themeLink: "We only allow Trap and the sub-genres of trap (such as Trapstyle, Festival, Neuro Trap, Chill-Trap, Future Bass/Beats, Dirty South, Trill Trap, Hybrid Trap)!",
         fbLink: "http://facebook.com/alltrapnation",
         youtubeLink: "https://www.youtube.com/user/AllTrapNation",
         website: "http://alltrapnation.com/",
