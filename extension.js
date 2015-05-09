@@ -67,7 +67,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 4,
-        motd: "Welcome To Trap Nation",
+        motd: "Your #1 plug for unique and diverse taste of trap music!",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
