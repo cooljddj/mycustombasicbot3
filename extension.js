@@ -15,7 +15,7 @@
 
          
 
-        bot.commands.baconCommand = {
+        bot.commands.creditsCommand = {
             command: 'credits',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
             type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
@@ -28,7 +28,7 @@
             }
         };
         
-        bot.commands.baconCommand = {
+        bot.commands.deeCommand = {
             command: 'nuts',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
             type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
@@ -41,7 +41,7 @@
             }
         };
         
-        bot.commands.baconCommand = {
+        bot.commands.fbgCommand = {
             command: 'fbg',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
             type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
