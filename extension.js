@@ -23,7 +23,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me BasicBot Made By Yemasthui, Edited By COOLJ");
+                    API.sendChat("/me The Trap Bot Made By Yemasthui, Edited By COOLJ|The Bouncer|");
                 }
             }
         };
@@ -49,7 +49,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me Join Our Facebook Group:http://on.fb.me/1dRgupy");
+                    API.sendChat("/me Join Our Facebook Group: http://on.fb.me/1dRgupy");
                 }
             }
         };
@@ -88,6 +88,8 @@
             ["sound", "The song you played had bad sound quality or no sound. "],
             ["nsfw", "The song you contained was NSFW (image or sound). "],
             ["unavailable", "The song you played was not available for some users. "]
+            ["troll", "The song you played is considered trolling if you play it again you will be banned"]
+            ["meh", "The song you played got too many mehs to quickly please choose another one"]
         ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
