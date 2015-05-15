@@ -87,8 +87,8 @@
             ["mix", "You played a mix, which is against the rules. "],
             ["sound", "The song you played had bad sound quality or no sound. "],
             ["nsfw", "The song you contained was NSFW (image or sound). "],
-            ["unavailable", "The song you played was not available for some users. "]
-            ["troll", "The song you played is considered trolling if you play it again you will be banned"]
+            ["unavailable", "The song you played was not available for some users. "],
+            ["troll", "The song you played is considered trolling if you play it again you will be banned"],
             ["meh", "The song you played got too many mehs to quickly please choose another one"]
         ],
         afkpositionCheck: 15,
