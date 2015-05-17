@@ -62,7 +62,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "The Trap Bot",
+        botName: "Java Bot",
         language: "english",
         chatLink: "https://rawgit.com/cooljddj/mybasicBot/master/lang/en.json",
         maximumAfk: 60,
