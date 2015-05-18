@@ -7,7 +7,7 @@ Things To Do
 |:------:|:---------:|:--------------------------------------:|
 |Dual | Nope | Make the !dual Game (!dualhelp would be great)|
 |!fbg | Nope | Make the command !fbg go on a intervul|
-|rcs | In Progress | Make a command !rcs to link to the plugin|
+|rcs | DONE | Make a command !rcs to link to the plugin|
 |giveaway | Nope | Make the !giveaway command|
 |clearqueue | Nope | Make the command !clearqueue to clear thw waitlist|
 |swap | Nope | Make command !swap to allow moderator to swap USER1 with USER2|
