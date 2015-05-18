@@ -6,7 +6,7 @@ Things To Do
 |What to do | Is it done? | Description |
 |:------:|:---------:|:--------------------------------------:|
 |Dual | Nope | Make the !dual Game (!dualhelp would be great)|
-|!fbg | Nope | Make the command !fbg go on a intervul|
+|fbg | Nope | Make the command !fbg go on a interval|
 |rcs | DONE | Make a command !rcs to link to the plugin|
 |giveaway | Nope | Make the !giveaway command|
 |clearqueue | Nope | Make the command !clearqueue to clear thw waitlist|
