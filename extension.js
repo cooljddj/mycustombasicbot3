@@ -113,7 +113,7 @@
         welcome: true,
         opLink: "http://bit.ly/1zQ3biY",
         rulesLink: "http://bit.ly/1A5GcR9",
-        themeLink: "We allow These genres: Trap, House, Chill, Funk, Electro, Rap, and Bass music.",
+        themeLink: "We allow These genres: Trap, House, Chill, Electro, Rap, and Bass music.",
         fbLink: "http://facebook.com/alltrapnation",
         youtubeLink: "https://www.youtube.com/user/AllTrapNation",
         website: "http://alltrapnation.com/",
