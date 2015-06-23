@@ -107,7 +107,7 @@
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
         motdEnabled: true,
-        motdInterval: 4,
+        motdInterval: 10,
         motd: "Your #1 plug for a unique and diverse taste of The Nation!",
         filterChat: true,
         etaRestriction: false,
