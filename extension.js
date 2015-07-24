@@ -50,7 +50,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                    API.sendChat("/me Change Log: ");
+                    API.sendChat("/me Change Log: https://goo.gl/V9pC3K");
                 }
             }
         };
